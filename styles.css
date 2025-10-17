@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /* மொபைலில் தேவையில்லாமல் scroll ஆவதை தடுக்க */
+    overflow: hidden;
+}
+
+#bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+    /* Canvas-ஐ மற்ற எல்லாவற்றிற்கும் பின்னால் அனுப்புகிறோம் */
+    z-index: -1;
+}
+
+.title {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 90%;
+}
