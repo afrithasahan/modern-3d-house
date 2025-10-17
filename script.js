@@ -33,7 +33,7 @@ controls.enableDamping = true; // மென்மையான அசைவுக
 // 4. 3D மாடலை ஏற்றுதல் (Loading 3D Model)
 const loader = new GLTFLoader();
 // இது ஒரு மாதிரி 3D மாடல். இதை நாம் பின்னர் வீட்டு மாடலாக மாற்றலாம்.
-const modelURL = 'https://raw.githubusercontent.com/mrdoob/three.js/dev/examples/models/gltf/PrimaryIonDrive.glb';
+const modelURL = 'https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/main/Models/BusterDrone/glTF-Binary/BusterDrone.glb';
 
 loader.load(modelURL, (gltf) => {
     const model = gltf.scene;
